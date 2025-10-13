@@ -1,31 +1,33 @@
 .header_nft{
     width: 90%;
-    height: 15vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
 
-nav{
+    nav{
      display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 30%;
-}
-
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    width: 80%;
-}
-
-.header_nft button{
+        ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 80%;
+        font-size: 18px;
+        }
+    }
+    button{
     width: 215px;
     height: 40px;
     background-color: #D400B3;
+    color: white;
+    font-size: 18px;
+    }
+
 }
