@@ -1,26 +1,31 @@
-
+import './Footer.scss'
+import logo from '../../assets/logo.svg'
+import twi from '../../assets/twi.svg'
+import facebook from '../../assets/facebook.svg'
+import linkedin from '../../assets/linkedin.svg'
 
 const Footer = () => {
   return (
     <footer>
-        <div>
-            <div>
-                <img src="" alt="" />
+        <div className='top_footer'>
+            <div className='nav_footer'>
+                <img src={logo} alt="" />
                 <ul>
                     <li>Marketplace</li>
                     <li>Artists</li>
                     <li>Contact</li>
                 </ul>
             </div>
-            <ul>
-                <li><img src="" alt="" /></li>
-                <li><img src="" alt="" /></li>
-                <li><img src="" alt="" /></li>
+            <ul className='contacts'>
+                <li><img src={twi} alt="" /></li>
+                <li><img src={facebook} alt="" /></li>
+                <li><img src={linkedin} alt="" /></li>
             </ul>
         </div>
-        <ul>
+        <div className='create_line_footer'></div>
+        <ul className='bottom_footer'>
             <li>Crafted by Marion & Co.</li>
-            <li>| Powered by Webflow</li>
+            <li>Powered by Webflow</li>
             <li>More templates</li>
             <li>License</li>
             <li>Style Guide</li>

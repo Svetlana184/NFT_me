@@ -1,0 +1,28 @@
+.trend_sec{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    .trend_title{
+        width: 40%;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        justify-content: space-between;
+    }
+    ul{
+         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 40%;
+        .trend_card{
+            height: 557px;
+            width: 552px;
+        }
+    }
+}
