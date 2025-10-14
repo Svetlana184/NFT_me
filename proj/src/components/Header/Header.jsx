@@ -6,7 +6,7 @@ export default function Header(){
   return (
     <header className="header_nft">
         <nav>
-            <img src={logo} alt="" />
+            <img className='logo' src={logo} alt="" />
             <ul>
                 <li>Marketplace</li>
                 <li>Artists</li>

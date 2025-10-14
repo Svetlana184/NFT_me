@@ -5,9 +5,56 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 15vh;
+    position: relative;
+    .pic_center{
+        position: absolute;
+        top: 6.5%;
+        left: 36%;
+        height: 733px;
+        width: 555px;
+    }
+    .p_form{
+        background-color: #262627;
+        width: 80%;
+        height: 50%;
+        border-bottom: #D400B3 5px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .p_content{
+            width: 50%;
+            height: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            p{
+                font-size: 20px;
+            }
+            form{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                input{
+                    background-color: rgba(196, 196, 196, 0.1);
+                    width: 456px;
+                    height: 50px;
+                    border: rgba(229, 229, 229, 0.3) 1px solid;
+                }
+                button{
+                    background-color: #D400B3;
+                    height: 52px;
+                    width: 144px;
+                    border: none;
+                }
+            }
+        }
+    }
     .partners_title{
         width: 80%;
-        height: 40%;
+        height: 35%;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -26,11 +73,11 @@
         }
     }
     .partners_ul{
-        width: 70%;
+        width: 60%;
         height: 60%;
         position: relative;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
         .p_card{
@@ -43,6 +90,14 @@
         }
         .p_special{
             position: absolute;
+            top: 25%;
+            right: 31%;
+            background-color: rgba(196, 196, 196, 0.2);
+            width: 341px;
+            height: 118px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }

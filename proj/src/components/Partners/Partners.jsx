@@ -1,5 +1,6 @@
 import './Partners.scss'
 import {partners} from '../../data.js'
+import pic from '../../assets/partners_pic.png'
 
 const Partners = () => {
   const cards = partners.map(item=> 
@@ -18,16 +19,20 @@ const Partners = () => {
         </ul>
         
       </div>
-      <div>
-          <h2>Never miss a drop</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit, sed do eiusmod tempor incididunt.
-          </p>
-          <form>
-            <input type="text" />
-            <button type='submit'></button>
-          </form>
+      <div className='p_form'>
+        <div className='p_content'>
+            <h2>Never miss a drop</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit, sed do eiusmod tempor incididunt.
+            </p>
+            <form>
+              <input type="text" />
+              <button type='submit'></button>
+            </form>
         </div>
+         
+        </div>
+        <img className='pic_center' src={pic} alt="" />
     </section>
   )
 }

@@ -5,7 +5,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    position: absolute;
+    z-index: 1;
     nav{
      display: flex;
     flex-direction: row;
@@ -20,6 +21,10 @@
         list-style: none;
         width: 80%;
         font-size: 18px;
+        }
+        .logo{
+            width: 60px;
+            height: 60px;
         }
     }
     button{
