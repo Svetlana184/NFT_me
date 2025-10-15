@@ -11,10 +11,10 @@ const Footer = () => {
             <div className='nav_footer'>
                 <img src={logo} alt="" />
                 <ul>
-                    <li>Marketplace</li>
-                    <li>Artists</li>
-                    <li>Contact</li>
-                </ul>
+                <li><a href="/">Marketplace</a></li>
+                <li><a href="/">Artists</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
             </div>
             <ul className='contacts'>
                 <li><img src={twi} alt="" /></li>

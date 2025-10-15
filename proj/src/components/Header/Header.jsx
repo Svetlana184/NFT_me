@@ -8,9 +8,9 @@ export default function Header(){
         <nav>
             <img className='logo' src={logo} alt="" />
             <ul>
-                <li>Marketplace</li>
-                <li>Artists</li>
-                <li>Contact</li>
+                <li><a href="/">Marketplace</a></li>
+                <li><a href="/">Artists</a></li>
+                <li><a href="/">Contact</a></li>
             </ul>
         </nav>
         <button><h5>Buy Template</h5></button>
