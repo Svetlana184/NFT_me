@@ -20,7 +20,8 @@
             width: 392px;
             height: 275px;
             background-color: #262627;
-            background-image: linear-gradient(to bottom left, transparent 10%, #fff 5%, #262627 15%);
+            background-image: linear-gradient(to bottom left, transparent 10%, rgba(229, 229, 229, 0.3) 5%, #262627 15%);
+            border: rgba(229, 229, 229, 0.3) 1px solid;
             display: flex;
             justify-content: center;
             align-items: center;

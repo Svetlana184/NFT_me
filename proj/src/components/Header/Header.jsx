@@ -13,7 +13,7 @@ export default function Header(){
                 <li>Contact</li>
             </ul>
         </nav>
-        <button>Buy Template</button>
+        <button><h5>Buy Template</h5></button>
     </header>
   )
 }

@@ -8,27 +8,32 @@ const Trending = () => {
   <li key={Math.random()} className='trend_card'>
     <div>
       <h5>{item.title}</h5>
-      <div>
+      <div className='text_card'>
         <p>{item.text}</p>
-        <p>{item.cost}</p>
+        <p><span>{item.cost}</span></p>
       </div>
     </div>
-    <div>
-      <img src={item.image} alt="" />
-      <img src={watermark} alt="" />
+    <div className='img_cards'>
+      <img className='bg_card' src={item.image} alt="" />
+      <img className='w_card' src={watermark} alt="" />
     </div>
   </li>)
   return (
     <section className='trend_sec'>
-      <div className='trend_title'>
-        <h2>Trending this week</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      {/* <ul>{trend_pics}</ul> */}
-      <button>
-        <img src={btn_pic} alt="" />
-        <p>View marketplace</p>
-      </button>
+      <ul>
+        <li className='trend_title'>
+            <h2>Trending this week</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+        {trend_pics}
+        <li className='trend_btn'>
+          <button>
+            <img src={btn_pic} alt="" />
+            <p>View marketplace</p>
+          </button>
+        </li>
+      </ul>
+      
     </section>
   )
 }

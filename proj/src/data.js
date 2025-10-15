@@ -1,3 +1,79 @@
+export const slider1 = [
+    {
+        index:0,
+        img:"../../src/assets/gallery/sl_1.png"
+    },
+    {
+        index:1,
+        img:"../../src/assets/gallery/sl_2.png"
+    },
+    {
+        index:2,
+        img:"../../src/assets/gallery/sl_3.png"
+    },
+    {
+        index:3,
+        img:"../../src/assets/gallery/sl_1.png"
+    },
+    {
+        index:4,
+        img:"../../src/assets/gallery/sl_2.png"
+    },
+    {
+        index:5,
+        img:"../../src/assets/gallery/sl_3.png"
+    },
+    {
+        index:6,
+        img:"../../src/assets/gallery/sl_1.png"
+    },
+    {
+        index:7,
+        img:"../../src/assets/gallery/sl_2.png"
+    },
+    {
+        index:8,
+        img:"../../src/assets/gallery/sl_3.png"
+    }
+]
+export const slider2 = [
+    {
+        index:0,
+        img:"../../src/assets/gallery/sl_4.png"
+    },
+    {
+        index:1,
+        img:"../../src/assets/gallery/sl_5.png"
+    },
+    {
+        index:2,
+        img:"../../src/assets/gallery/sl_6.png"
+    },
+    {
+        index:3,
+        img:"../../src/assets/gallery/sl_4.png"
+    },
+    {
+        index:4,
+        img:"../../src/assets/gallery/sl_5.png"
+    },
+    {
+        index:5,
+        img:"../../src/assets/gallery/sl_6.png"
+    },
+    {
+        index:6,
+        img:"../../src/assets/gallery/sl_4.png"
+    },
+    {
+        index:7,
+        img:"../../src/assets/gallery/sl_5.png"
+    },
+    {
+        index:8,
+        img:"../../src/assets/gallery/sl_6.png"
+    }
+]
 export const partners = [
    {
     index:0,
@@ -62,37 +138,37 @@ export const create_and_sell = [
 
 export const trending = [
     {
-        image: "../../src/assets/trending_1.png",
+        image: "../../src/assets/trending_pics/trending_1.png",
         title:"Mandy Ross",
         text:"Miricale Culture",
         cost:"3.24 ETH"
     },
     {
-        image: "../../src/assets/trending_2.png",
+        image: "../../src/assets/trending_pics/trending_2.png",
         title:"Dan Gatty",
         text:"Miricale Culture",
         cost:"3.24 ETH"
     },
     {
-        image: "../../src/assets/trending_3.png",
+        image: "../../src/assets/trending_pics/trending_3.png",
         title:"Mandy Ross",
         text:"Miricale Culture",
         cost:"3.24 ETH"
     },
     {
-        image: "../../src/assets/trending_4.png",
+        image: "../../src/assets/trending_pics/trending_4.png",
         title:"Jason Riley",
         text:"Miricale Culture",
         cost:"3.24 ETH"
     },
     {
-        image: "../../src/assets/trending_5.png",
+        image: "../../src/assets/trending_pics/trending_5.png",
         title:"Lewis Lowie",
         text:"Miricale Culture",
         cost:"3.24 ETH"
     },
     {
-         image: "../../src/assets/trending_6.png",
+         image: "../../src/assets/trending_pics/trending_6.png",
         title:"Mandy Ross",
         text:"Miricale Culture",
         cost:"3.24 ETH"

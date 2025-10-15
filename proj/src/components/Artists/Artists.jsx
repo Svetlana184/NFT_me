@@ -14,14 +14,14 @@ const Artists = () => {
           <div>
              <div className='btn_view'> 
               <img src={btn_pic} alt="" />
-              <p><span>View all artists</span></p>
+              <h4><span>View all artists</span></h4>
             </div>
             <p>Lorem ipsum dolor sit amet, tempor consectetur dolore.</p>
           </div>
          
         </button>
         <button  className={`btn_popular ${sw === 1 ? 'active' : ''}`} onClick={()=>setSw(1)}> 
-          <p>Popular artists</p>
+          <h3>Popular artists</h3>
         </button>
       </div>
       <div className='art_div'>
