@@ -94,3 +94,13 @@
         }
     }
 }
+
+@media(min-width:300px) and (max-width:450px){
+    .trend_sec{
+        height: 300vh;
+    }
+    .trend_card{
+        height: 40vh;
+        width: 80vw;
+    }
+}

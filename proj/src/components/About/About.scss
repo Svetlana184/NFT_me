@@ -80,3 +80,36 @@
     }
     
 }
+
+@media(min-width:300px) and (max-width:450px){
+    .about_section{
+        height: 70vh;
+        .btn_watch{
+            width: 60%;
+            height: 20%;
+        }
+        .about_text{
+        width: 100%;
+        height: 70%;
+        div{
+            .h1_ab{
+                font-size: 45px;
+            }
+        }
+        
+    }
+    .watermark_about{
+            display: none;
+        }
+        .pic_about{
+            display: none;
+        }
+        .black_sq{
+            display: none;
+        }
+        .gray_sq{
+            display: none;
+        }
+    }
+    
+}

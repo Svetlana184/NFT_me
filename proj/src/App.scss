@@ -30,3 +30,9 @@ ul{
   font-family: SansBold;
   src: url(./fonts/Sans/SourceSansPro-Black.ttf);
 }
+
+@media(min-width:300px) and (max-width:450px){
+  h2{
+    font-size: 30px;
+  }
+}

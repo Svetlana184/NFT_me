@@ -101,3 +101,22 @@
         }
     }
 }
+
+@media(min-width:300px) and (max-width:450px){
+    .btn_popular{
+        h3{
+            font-size: 30px;
+        }
+    }
+    .art_ul{
+        display: flex;
+        flex-direction: column;
+   }
+   .art_sec{
+    height: 100vh;
+   }
+   .art_nav{
+    height: 10%;
+   }
+    
+}

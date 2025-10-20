@@ -36,3 +36,20 @@
         }
     }
 }
+
+@media(min-width:300px) and (max-width:450px){
+    .stat_section{
+        height: 70vh;
+        div{
+            flex-direction: column;
+            .stat_text{
+                width: 100%;
+                height: 40%;
+            }
+            ul{
+                width: 100%;
+            }
+
+        }
+    }
+}

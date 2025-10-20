@@ -46,3 +46,20 @@
         }
     }
 }
+
+@media(min-width:300px) and (max-width:450px){
+    .create_sec{
+        width: 90%;
+        height: 70vh;
+        ul{
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            .create_card{
+                width: 100%;
+                height: 30%;
+            }
+        }
+    }
+}

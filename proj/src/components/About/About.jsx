@@ -8,7 +8,7 @@ const About = () => {
     <section className='about_section'>
       <div className='about_text'>
         <div>
-              <h1>
+              <h1 className='h1_ab'>
               Discover rare digital art and collect NFT’s
             </h1>
             <p>

@@ -60,3 +60,27 @@ footer{
         width: 60%;
     }
 }
+
+@media(min-width:300px) and (max-width:450px){
+    footer{
+        height: 40vh;
+        justify-content: space-around;
+        .top_footer{
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 35%;
+            .contacts{
+                align-self: center;
+                width: 60%;
+            }
+            .nav_footer{
+                width: 90%;
+            }
+        }
+        .bottom_footer{
+            flex-direction: column;
+            height: 55%;
+        }
+    }
+}
