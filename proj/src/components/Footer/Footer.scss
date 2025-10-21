@@ -84,3 +84,45 @@ footer{
         }
     }
 }
+
+@media(min-width:451px) and (max-width:1023px){
+    footer{
+        height: 40vh;
+        justify-content: space-around;
+        .top_footer{
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 35%;
+            .contacts{
+                align-self: center;
+                width: 35%;
+            }
+            .nav_footer{
+                width: 90%;
+                font-size: 20px;
+            }
+        }
+        .bottom_footer{
+            flex-direction: column;
+            height: 55%;
+        }
+    }
+}
+
+@media(min-width:1024px) and (max-width:1025px){
+    footer{
+        .top_footer{
+            .contacts{ 
+                width: 25%;
+            }
+            .nav_footer{
+                width: 45%;
+                font-size: 20px;
+            }
+        }
+        .bottom_footer{
+            width: 90%;
+        }
+    }
+}

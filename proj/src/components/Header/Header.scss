@@ -54,3 +54,24 @@
         }
     }
 }
+
+@media(min-width:451px) and (max-width:1023px){
+    .header_nft{
+        width: 90%;
+        height: 15vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        nav{
+            width: 100%;
+        }
+    }
+}
+
+@media(min-width:1024px) and (max-width:1200px){
+    .header_nft{
+        nav{
+            width: 50%;
+        }
+    }
+}

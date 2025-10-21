@@ -1,6 +1,6 @@
 .trend_sec{
     width: 80%;
-    height: 220vh;
+    height: 280vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -98,9 +98,76 @@
 @media(min-width:300px) and (max-width:450px){
     .trend_sec{
         height: 300vh;
+        ul{
+            .trend_title{
+                width: 90%;
+            }
+            .trend_card{
+                height: 40vh;
+                width: 80vw;
+                .img_cards{
+                    width: 350px;
+                }
+             }
+            .trend_btn{
+                height: 5vh;
+            }
+        }
     }
-    .trend_card{
-        height: 40vh;
-        width: 80vw;
+    
+}
+
+@media(min-width:451px) and (max-width:1023px){
+    .trend_sec{
+        height: 300vh;
+        width: 80%;
+        align-items: center;
+        ul{
+            .trend_title{
+                width: 100%;
+                height: 7%;
+                p{
+                    font-size: 25px;
+                }
+            }
+            .trend_card{
+                height: 40vh;
+                .img_cards{
+                    width: 450px;
+                }
+             }
+            .trend_btn{
+                height: 5vh;
+            }
+        }
     }
+    
+}
+
+@media(min-width:1024px) and (max-width:1025px){
+    .trend_sec{
+        height: 250vh;
+        width: 80%;
+        align-items: center;
+        ul{
+            .trend_title{
+                width: 50%;
+                height: 9%;
+                p{
+                    font-size: 20px;
+                }
+            }
+            .trend_card{
+                height: 23%;
+                width: 45%;
+                .img_cards{
+                    width: 330px;
+                }
+             }
+            .trend_btn{
+                height: 10vh;
+            }
+        }
+    }
+    
 }

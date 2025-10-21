@@ -16,7 +16,7 @@ const Artists = () => {
               <img src={btn_pic} alt="" />
               <h4><span>View all artists</span></h4>
             </div>
-            <p>Lorem ipsum dolor sit amet, tempor consectetur dolore.</p>
+            <p className='btn_textt'>Lorem ipsum dolor sit amet, tempor consectetur dolore.</p>
           </div>
          
         </button>

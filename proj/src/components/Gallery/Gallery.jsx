@@ -5,17 +5,33 @@ import 'swiper/css/navigation';
 import './Gallery.scss'
 import { Autoplay, FreeMode, Mousewheel, Pagination } from 'swiper/modules';
 import {slider1, slider2} from '../../data.js'
+import { useEffect, useState } from 'react';
 
 const Gallery = () => {
-  const sl_pics_1 = slider1.map(item => <SwiperSlide key={item.index}><img src={item.img} alt="" /></SwiperSlide>)
-  const sl_pics_2 = slider2.map(item => <SwiperSlide key={item.index}><img src={item.img} alt="" /></SwiperSlide>)
-  
+  const sl_pics_1 = slider1.map(item => <SwiperSlide key={item.index}><img src={item.img} alt="" /></SwiperSlide>);
+  const sl_pics_2 = slider2.map(item => <SwiperSlide key={item.index}><img src={item.img} alt="" /></SwiperSlide>);
+  const w = +window.innerWidth;
+  console.log(w);
+  let [count_slides, setCountSlides] = useState(0);
+  useEffect(()=>{
+    if ( w <=450){
+    setCountSlides(1);
+  }
+  else if (w >=450 && w <=1023){
+    setCountSlides(2);
+  }
+  else{
+    setCountSlides(3)
+  }
+  }, [])
+  console.log(count_slides)
+
   return (
     <section className='gal_sec'>
       <Swiper
         direction={'horizontal'}
         freeMode={true}
-        slidesPerView={3}
+        slidesPerView={count_slides}
         spaceBetween={100}
         loop={true}
         autoplay={{
@@ -32,7 +48,7 @@ const Gallery = () => {
          <Swiper
         direction={'horizontal'}
         freeMode={true}
-        slidesPerView={3}
+        slidesPerView={count_slides}
         spaceBetween={100}
         loop={true}
         autoplay={{
