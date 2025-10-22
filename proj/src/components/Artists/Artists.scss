@@ -106,7 +106,7 @@
     
     
    .art_sec{
-    height: 120vh;
+    height: 140vh;
         .art_nav{
             height: 15vh;
             .btn_popular{
@@ -121,7 +121,7 @@
                     flex-direction: row;
                     }
                     .btn_textt{
-                        font-size: 10px;
+                        display: none;
                     }
                 
                 }
@@ -134,7 +134,7 @@
                     flex-direction: row;
                     }
                     .btn_textt{
-                        font-size: 10px;
+                        display: none;
                     }
                 
                 }
@@ -147,6 +147,12 @@
                 flex-direction: column;
                 li{
                     height: 30vh;
+                    .bg_pic{
+                        width: 300px;
+                    }
+                    .profile_pic{
+                        top: 27%;
+                    }
                 }
             }
         }

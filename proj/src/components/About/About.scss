@@ -85,13 +85,16 @@
     .about_section{
         height: 70vh;
         .btn_watch{
-            width: 60%;
+            width: 75%;
             height: 20%;
         }
         .about_text{
         width: 100%;
         height: 70%;
         div{
+            p{
+                font-size: 14px;
+            }
             .h1_ab{
                 font-size: 45px;
             }
