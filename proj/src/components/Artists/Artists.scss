@@ -102,7 +102,7 @@
     }
 }
 
-@media(min-width:300px) and (max-width:450px){
+@media(min-width:320px) and (max-width:425px){
     
     
    .art_sec{
@@ -156,7 +156,7 @@
     
 }
 
-@media(min-width:451px) and (max-width:1023px){
+@media(min-width:426px) and (max-width:768px){
     
     
    .art_sec{
@@ -189,9 +189,12 @@
                     width: 80%;
                     .btn_view{
                     flex-direction: row;
+                    h4{
+                        font-size: 20px;
+                    }
                     }
                     .btn_textt{
-                        font-size: 10px;
+                        font-size: 14px;
                     }
                 
                 }
@@ -214,7 +217,7 @@
 }
 
 
-@media(min-width:1024px) and (max-width:1025px){
+@media(min-width:769px) and (max-width:1024px){
     
     
    .art_sec{
@@ -231,7 +234,7 @@
                     width: 80%;
                     .btn_view{
                     flex-direction: row;
-                    width: 30%;
+                    width: 45%;
                     h4{
                         font-size: 20px;
                     }
@@ -248,7 +251,7 @@
                     width: 80%;
                     .btn_view{
                     flex-direction: row;
-                     width: 30%;
+                     width: 45%;
                     }
                     .btn_textt{
                         font-size: 14px;

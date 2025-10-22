@@ -14,10 +14,10 @@ const Gallery = () => {
   console.log(w);
   let [count_slides, setCountSlides] = useState(0);
   useEffect(()=>{
-    if ( w <=450){
+    if ( w <=425){
     setCountSlides(1);
   }
-  else if (w >=450 && w <=1023){
+  else if (w >=426 && w <=768){
     setCountSlides(2);
   }
   else{

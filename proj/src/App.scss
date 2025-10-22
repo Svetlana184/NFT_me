@@ -32,13 +32,13 @@ ul{
   src: url(./fonts/Sans/SourceSansPro-Black.ttf);
 }
 
-@media(min-width:300px) and (max-width:450px){
+@media(min-width:320px) and (max-width:425px){
   h2{
     font-size: 30px;
   }
 }
 
-@media(min-width:451px) and (max-width:1023px){
+@media(min-width:426px) and (max-width:768px){
   h2{
     font-size: 45px;
   }

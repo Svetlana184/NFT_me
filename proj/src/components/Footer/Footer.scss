@@ -61,7 +61,7 @@ footer{
     }
 }
 
-@media(min-width:300px) and (max-width:450px){
+@media(min-width:320px) and (max-width:425px){
     footer{
         height: 40vh;
         justify-content: space-around;
@@ -85,7 +85,7 @@ footer{
     }
 }
 
-@media(min-width:451px) and (max-width:1023px){
+@media(min-width:426px) and (max-width:768px){
     footer{
         height: 40vh;
         justify-content: space-around;
@@ -110,7 +110,7 @@ footer{
     }
 }
 
-@media(min-width:1024px) and (max-width:1025px){
+@media(min-width:796px) and (max-width:1024px){
     footer{
         .top_footer{
             .contacts{ 
